@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alex Rivera | ML & AI Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a class="logo" href="#top">AR</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <div id="nav-links" class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Machine Learning & AI Engineer</p>
+          <h1>Building intelligent systems that feel human.</h1>
+          <p class="hero-subtitle">
+            Hi, I’m <strong>Alex Rivera</strong> — an aspiring ML & AI engineer who loves turning research into
+            production-ready products. I focus on responsible AI, NLP, and end-to-end model deployment.
+          </p>
+          <div class="hero-cta">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button ghost" href="#contact">Let’s Connect</a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <h3>5+</h3>
+              <p>ML projects shipped</p>
+            </div>
+            <div>
+              <h3>3</h3>
+              <p>Research areas explored</p>
+            </div>
+            <div>
+              <h3>2026</h3>
+              <p>Expected graduation</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="avatar">AR</div>
+          <h2>Alex Rivera</h2>
+          <p>ML/AI Engineer · San Francisco, CA</p>
+          <ul>
+            <li>Open to internships & co-ops</li>
+            <li>Interested in AI product roles</li>
+            <li>Focused on ethics & safety</li>
+          </ul>
+          <div class="hero-links">
+            <a href="mailto:alex.rivera@email.com">alex.rivera@email.com</a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Future-focused AI engineer with a product mindset.</h2>
+        </div>
+        <div class="about-grid">
+          <p>
+            I’m currently studying computer science with a concentration in machine learning. My goal is to build
+            models that deliver real value, whether that’s helping teams forecast demand, personalize user
+            experiences, or build safer decision systems.
+          </p>
+          <p>
+            I care about the full lifecycle of AI: data strategy, model selection, evaluation, deployment, and
+            monitoring. I’m especially passionate about explainable AI and designing systems that people can trust.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>Core strengths in ML engineering & AI product development.</h2>
+        </div>
+        <div class="chip-grid">
+          <span>Python</span>
+          <span>PyTorch</span>
+          <span>TensorFlow</span>
+          <span>Scikit-learn</span>
+          <span>Transformers</span>
+          <span>LLM Prompting</span>
+          <span>Feature Engineering</span>
+          <span>Model Evaluation</span>
+          <span>MLOps (Docker, MLflow)</span>
+          <span>FastAPI</span>
+          <span>SQL & Data Modeling</span>
+          <span>Data Visualization</span>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Practical solutions to real-world problems.</h2>
+        </div>
+        <div class="project-grid">
+          <article class="card">
+            <h3>Vision Sentinel</h3>
+            <p>
+              Built a computer vision pipeline for safety compliance detection using YOLOv8. Improved detection
+              accuracy by 18% through data augmentation and active learning.
+            </p>
+            <ul>
+              <li>Stack: Python, PyTorch, OpenCV</li>
+              <li>Outcome: Real-time alerts under 150ms latency</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Support Co-Pilot</h3>
+            <p>
+              Designed a retrieval-augmented generation workflow to auto-draft customer support responses. Achieved
+              30% faster resolution time and improved customer satisfaction.
+            </p>
+            <ul>
+              <li>Stack: LangChain, Pinecone, FastAPI</li>
+              <li>Outcome: Deployed with human-in-the-loop feedback</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Demand Pulse</h3>
+            <p>
+              Forecasted product demand for a retail partner using gradient-boosted trees. Delivered weekly forecasts
+              with 92% accuracy.
+            </p>
+            <ul>
+              <li>Stack: XGBoost, Pandas, Airflow</li>
+              <li>Outcome: Reduced stockouts by 12%</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="section experience">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Hands-on work in research and applied AI.</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div>
+              <h3>ML Research Assistant</h3>
+              <p class="timeline-meta">University AI Lab · 2024 — Present</p>
+            </div>
+            <p>
+              Investigating bias mitigation strategies in NLP models. Built evaluation dashboards and collaborated
+              with cross-functional teams to publish findings.
+            </p>
+          </div>
+          <div class="timeline-item">
+            <div>
+              <h3>Data Science Intern</h3>
+              <p class="timeline-meta">Nova Analytics · Summer 2023</p>
+            </div>
+            <p>
+              Implemented automated data quality checks and improved ETL pipelines. Delivered a churn prediction
+              model that increased retention by 9%.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section education">
+        <div class="section-heading">
+          <p class="eyebrow">Education</p>
+          <h2>Academic foundation in AI systems.</h2>
+        </div>
+        <div class="card">
+          <h3>B.S. in Computer Science</h3>
+          <p class="timeline-meta">Pacific Tech University · 2022 — 2026</p>
+          <p>Coursework: Machine Learning, Deep Learning, Data Ethics, Distributed Systems.</p>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s build the future of AI together.</h2>
+        </div>
+        <div class="contact-card">
+          <div>
+            <h3>Available for</h3>
+            <ul>
+              <li>Internships & research roles</li>
+              <li>ML engineering projects</li>
+              <li>Technical collaborations</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Reach me at</h3>
+            <p><a href="mailto:alex.rivera@email.com">alex.rivera@email.com</a></p>
+            <p>San Francisco, CA · Open to remote</p>
+          </div>
+          <div>
+            <h3>Social</h3>
+            <p><a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a></p>
+            <p><a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Alex Rivera. Built with curiosity.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
